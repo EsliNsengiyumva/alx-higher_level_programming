@@ -1,0 +1,3 @@
+#!/bin/bash
+export PYCODE='print("Hello, World!")'
+python -c "$PYCODE"
