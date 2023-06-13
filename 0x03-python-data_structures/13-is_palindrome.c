@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include "lists.h"
 
-/**
+/*
  * is_palindrome - prints all elements of a listint_t list
  * @head: pointer to head of list
  * Return: 1
  */
 int is_palindrome(listint_t **head)
 {
-      	listint_t *current = *head;
+	listint_t *current = *head;
     	int length = 0, i = 0, j;
     	int *values = NULL;
     	/* compute length and allocate array to store values */
@@ -35,8 +35,9 @@ int is_palindrome(listint_t **head)
 	 	{
 	    		free(values);
 	    		return (0);
-        }
+        	}
     	}
-    	free(values);
+    	
+	free(values);
 	return (1);
 }
