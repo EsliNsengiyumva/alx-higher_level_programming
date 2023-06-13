@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-import builtins;builtins.print("#pythoniscool")
+__builtins__.__dict__['print']("#pythoniscool")
+
