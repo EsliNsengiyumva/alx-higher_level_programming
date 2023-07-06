@@ -3,13 +3,17 @@
 
 The module has the class Rectangle.
 """
-
-
 class Rectangle:
-    """class rectangle.
-    the class pass
-
-    """
-
     def __init__(self):
         pass
+
+    def area(self):
+        pass
+
+    def perimeter(self):
+        pass
+
+    def is_square(self):
+        pass
+
+
