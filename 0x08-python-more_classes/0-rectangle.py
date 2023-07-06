@@ -1,10 +1,15 @@
 #!/usr/bin/python3
-"""
-Module 0-rectangle
-Defines an empty class called Rectangle
+"""This module  has a class for rectangule instances.
+
+The module has the class Rectangle.
 """
 
 
 class Rectangle:
-    """Empty class."""
-    pass
+    """class rectangle.
+    the class pass
+
+    """
+
+    def __init__(self):
+        pass
