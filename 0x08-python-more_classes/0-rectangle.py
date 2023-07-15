@@ -1,19 +1,10 @@
 #!/usr/bin/python3
-"""This module  has a class for rectangule instances.
-
-The module has the class Rectangle.
+"""0-rectangle, built for Holberton project 0x08 task 0.
 """
+
+
 class Rectangle:
-    def __init__(self):
-        pass
-
-    def area(self):
-        pass
-
-    def perimeter(self):
-        pass
-
-    def is_square(self):
-        pass
-
+    """Empty class per task instructions, will be built upon in later tasks.
+    """
+    pass
 
