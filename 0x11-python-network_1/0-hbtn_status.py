@@ -2,17 +2,13 @@
 """fetches https://alx-intranet.hbtn.io/status
 """
 
-import urllib.request
 
-url = "https://alx-intranet.hbtn.io/status"
+if __name__ == "__main__":
+    import urllib.request
 
-try:
-    with urllib.request.urlopen(url) as response:
-        html = response.read()
+    with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as res:
+        content = res.read()
         print("Body response:")
-        print("\t- type:", type(html))
-        print("\t- content:", html.decode('utf-8'))
-except urllib.error.HTTPError as e:
-    print("Error code:", e.code)
-except urllib.error.URLError as e:
-    print("Error:", e.reason)
+        print("\t- type: {}".format(type(content)))
+        print("\t- content: {}".format(content))
+        print("\t- utf8 content: {}".format(content.decode('utf-8')))
